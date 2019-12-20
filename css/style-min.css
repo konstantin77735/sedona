@@ -1,0 +1,422 @@
+body,
+h2,
+h3 {
+    line-height: 21px
+}
+
+body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.shadows {
+    box-shadow: 0 5px 15px 0 rgba(0, 1, 1, .2)
+}
+
+h2,
+h3 {
+    font-weight: 700;
+    font-size: 21px
+}
+
+h3 {
+    font-size: 16px
+}
+
+.results-description h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 26px
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.header {
+    position: relative;
+    background-color: #fff
+}
+
+.header-main {
+    margin: 0;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 0
+}
+
+.header-main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.header-main li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    box-sizing: border-box
+}
+
+.header-main li:nth-child(2) {
+    margin-right: 20%;
+    padding-left: 30px
+}
+
+.header-main li:nth-child(3) {
+    padding-right: 32px
+}
+
+.header-main li:last-child,
+.header-main li:nth-child(3) {
+    text-align: right
+}
+
+.header-main li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700
+}
+
+.header-main li.active a {
+    color: #766357
+}
+
+.header-main li a:hover {
+    color: #81b3d2
+}
+
+.header-main li a:active {
+    color: #cacaca
+}
+
+.header-logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -69px;
+    z-index: 2
+}
+
+main {
+    background-color: #fff
+}
+
+.intro {
+    min-height: 510px;
+    background: url(../img/intro-mask.png) 50% 100% no-repeat, url(../img/welcome-text.png) 50% 50% no-repeat, url(../img/bg-intro.jpg)0 20% no-repeat;
+    background-color: #5496bd;
+    margin-bottom: 60px
+}
+
+.info-city {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000
+}
+
+.info-city h2 {
+    display: block;
+    padding: 0;
+    margin: 0 auto 28px;
+    width: 450px;
+    line-height: 26px
+}
+
+.info-city p {
+    margin: 0;
+    color: #7d7d7d;
+    line-height: 26px
+}
+
+.col-33,
+.col-66 {
+    width: 33.33%;
+    box-sizing: border-box
+}
+
+.col-66 {
+    width: 66.66%
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.cause-tagline {
+    padding: 53px 48px;
+    float: left;
+    background-color: #81b3d2;
+    color: #fff;
+    text-align: center
+}
+
+.cause-tagline h2 {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px
+}
+
+.cause-tagline:first-child {
+    padding: 53px 54px
+}
+
+.cause-tagline .cause-number {
+    display: block;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    color: #fff
+}
+
+.cause-tagline p {
+    margin: 0
+}
+
+.cause-photo {
+    position: relative;
+    float: left;
+    min-height: 256px;
+    background-color: #81b3d2
+}
+
+.cause-photo img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0
+}
+
+.cause-description {
+    float: left;
+    margin-bottom: 23px;
+    padding: 162px 48px 60px;
+    text-align: center
+}
+
+.cause-housing {
+    background: url(../img/housing.png) center 60px no-repeat
+}
+
+.cause-food {
+    background: url(../img/food.png) center 60px no-repeat
+}
+
+.cause-souvenirs {
+    background: url(../img/souvenirs.png) center 56px no-repeat
+}
+
+.cause-description img,
+.cause-number {
+    margin-bottom: 32px
+}
+
+.cause-description h2 {
+    display: block;
+    width: 125px;
+    margin: 0 auto 23px;
+    padding: 0
+}
+
+.cause-description p {
+    margin: 0;
+    color: #7d7d7d
+}
+
+.cause-number {
+    display: block;
+    color: #7d7d7d
+}
+
+.cause-bg {
+    float: left;
+    background-color: #f2f2f2
+}
+
+.cause-bg .cause-description {
+    padding: 48px 65px;
+    margin-bottom: 10px
+}
+
+.cause-bg .cause-number {
+    margin-bottom: 20px
+}
+
+.search {
+    position: relative;
+    margin: 0;
+    padding: 55px 0 0;
+    text-align: center
+}
+
+.search h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 24px
+}
+
+.search p {
+    margin: 0 0 48px;
+    color: #5d5d5d;
+    line-height: 24px
+}
+
+.search .btn-search,
+.search-modal label,
+.serch-form input {
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.search .btn-search {
+    width: 568px;
+    padding: 30px 0;
+    background-color: #766357;
+    border: none;
+    color: #fff;
+    line-height: 26px;
+    cursor: pointer;
+    font-size: 21px
+}
+
+.search-modal,
+.search-modal-hidden {
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+.search-modal {
+    position: absolute;
+    width: 568px;
+    left: 50%;
+    top: 100%;
+    margin-left: -284px;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 7px 15px 0 rgba(0, 1, 1, .15);
+    z-index: 5;
+    visibility: visible;
+    opacity: 1
+}
+
+.search-modal-hidden {
+    visibility: hidden;
+    opacity: 0
+}
+
+.fields {
+    position: relative;
+    margin-bottom: 30px;
+    clear: both;
+    text-align: right
+}
+
+.search-modal label,
+.serch-form input {
+    font-size: 14px
+}
+
+.search-modal label {
+    float: left;
+    line-height: 38px
+}
+
+.serch-form input {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    line-height: 26px;
+    border: none
+}
+
+.serch-form input[name=arrival-date],
+.serch-form input[name=departure-date] {
+    width: 345px;
+    padding-left: 12px
+}
+
+.serch-form input:hover {
+    background-color: #ebebeb
+}
+
+.serch-form input:focus {
+    background-color: #fff;
+    outline: 1px solid #e5e5e5
+}
+
+.fields-after {
+    position: absolute;
+    display: block;
+    top: 9px;
+    right: 10px;
+    width: 21px;
+    height: 22px;
+    background-color: transparent;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -73px -5px
+}
+
+.fields-after:hover {
+    cursor: pointer;
+    background-position: -135px -5px
+}
+
+.fields-after:active {
+    cursor: pointer;
+    background-position: -104px -5px
+}
+
+.search-wrapper {
+    float: left;
+    box-sizing: border-box;
+    width: 50%
+}
+
+.search-wrapper div {
+    float: right
+}
+
+.search-wrapper label {
+    float: left
+}
+
+.search-wrapper .btn {
+    float: left;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.search-wrapper .btn:hover {
+    color: #000
+}
